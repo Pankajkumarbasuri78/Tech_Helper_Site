@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react';
+import { Homepage } from './Components/Homepage';
+import { Pagination } from './Components/Pagination';
+import { Search } from './Components/Search';
+import "./App.css";
+//import { useGlobalContext } from './Context';
+// import { AppContext } from './Context';
+// import { useContext } from 'react';
+
+
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <> 
+      <Search />
+      <Pagination />
+      <Homepage />
+    </>
+  )
 }
-
 export default App;
