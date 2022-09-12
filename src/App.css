@@ -130,3 +130,50 @@ button {
     padding: 2rem;
   }
 }
+
+/* card Component */
+/* .card_container{
+  background-color: #15133c;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  min-height: 200px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(212, 188, 188, 0.25);
+  transition: all 0.2s;
+}
+
+.card_container:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+.card__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #e91d1d;
+}
+buttons-container {
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  justify-content: center;
+  display: inline-flex;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 80px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+.btn-cancel {
+  color: #333;
+  background-color: #e0e0e0;
+  border-color: #ccc;
+} */

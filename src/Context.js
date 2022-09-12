@@ -36,15 +36,28 @@ export const AppProvider = ({children}) => {
         }
       };
 
+// to remove the post
+  const removePost = (post_ID) => {
+    dispatch({ type: "REMOVE_POST", payload: post_ID });
+  };
+
+//search post
+
+  const searchPost = (searchQuery) => {
+    dispatch({
+      type: "SEARCH_QUERY",
+      payload: searchQuery,
+    });
+  };
 
       // To Call API
   useEffect(() => {
     fecthApiData(`${API}query=${state.query}`);
-  }, []);
+  }, [state.query]);
 
 
   return (
-    <AppContext.Provider value={{...state}}>
+    <AppContext.Provider value={{...state,removePost,searchPost}}>
         {children}
     </AppContext.Provider>
   )

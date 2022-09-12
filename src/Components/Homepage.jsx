@@ -28,7 +28,7 @@ export const Homepage = () => {
                 <a href={url} target="_blank" rel='noreferrer'>
                   Read More
                 </a>
-                <a href="google.com" onClick={() => removePost(objectID)}>
+                <a href="#.com" onClick={() => removePost(objectID)}>
                   Remove
                 </a>
               </div>
