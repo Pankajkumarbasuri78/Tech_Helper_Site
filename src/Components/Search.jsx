@@ -11,7 +11,7 @@ export const Search = () => {
         <div>
           <input
             type="text"
-            placeholder="search here"
+            placeholder="search tech related topics"
             value={query}
             onChange={(e) => searchPost(e.target.value)}
           />
